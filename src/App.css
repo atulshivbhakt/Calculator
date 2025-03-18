@@ -52,3 +52,41 @@ button{
   
 
 }
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+  .calc {
+    padding: 15px;
+    box-shadow: -1px -1px 8px 8px #bd616180;
+  }
+
+  #input {
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+  button {
+    height: 70px;
+    width: 70px;
+    margin: 8px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+  .calc {
+    padding: 10px;
+    box-shadow: -1px -1px 6px 6px #bd616180;
+  }
+
+  #input {
+    height: 60px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+}
